@@ -40,7 +40,7 @@ inputs1= [gr.Slider(20, 90, value=4, label="age", info="Choose age between 20 an
            gr.Slider(1, 100, value=4, label="time", info="Choose between 1 and 100")
            ]
 
-title = "Patient Survival Prediction"
+title = "Patient Survival Prediction New"
 description = "Predict survival of patient with heart failure, given their clinical record"
 
 iface = gr.Interface(fn = predict_death_event,
